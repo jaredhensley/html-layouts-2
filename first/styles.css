@@ -11,12 +11,14 @@ section.top {
   width: 90%;
   margin: 0 auto;
   margin-top: 15px;
+  max-width: 825px;
 }
 
 section.bottom {
   height: 50%;
   width: 90%;
   margin: 0 auto;
+  max-width: 825px;
   
 }
 
