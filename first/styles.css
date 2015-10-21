@@ -1,0 +1,80 @@
+body {
+  font-family: Arial;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section.top {
+  height: 50%;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+section.bottom {
+  height: 50%;
+  width: 90%;
+  margin: 0 auto;
+  
+}
+
+.smallbox {
+  display: inline-block;
+  height: 125px;
+  width: 32%;
+  max-width: 400px;
+  background-color: beige;
+  
+}
+
+.red {
+  background-color: #D0021B;
+}
+
+.blue {
+  background-color: #4A90E2;
+}
+
+.black {
+  background-color: #4A4A4A;
+}
+
+article {
+}
+
+.lorem-text {
+  text-align: left;
+}
+
+.bigblock {
+  height: 250px;
+  
+}
+
+.left-bigblock{
+  height: 100%;
+  background-color: #D0021B;
+  float: left;
+  width: 33%;
+}
+
+.thinblock {
+  margin-top: 25px;
+  height: 100px;
+}
+
+.rightparent-thinblock {
+  height: 100%;
+  width: 33%;
+  float: right;
+  background-color: #D0021B;
+}
+
+.rightchild-thinblock {
+  height: 100%;
+  width: 75%;
+  margin: 0 auto;
+  background-color: #4A4A4A;
+}
